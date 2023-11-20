@@ -1,1 +1,4 @@
 # MIPS_Lazar_Jakovljevic
+"Lazar Jakovljević" enkodira se kao niz impulsa i pauza koristeći sledeće parametre:
+
+Ime i prezime imaju ukupno 9 suglasnika (3 + 6) i 6 samoglasnika, što čini oznaku "port B". Ukupan broj slova u imenu i prezimenu je 15. PIN se izračunava kao ostatak pri deljenju sa 6, što daje PIN 3 (PB3). Širina impulsa tokom ponavljanja ciklusa za ime iznosi 5 ms, dok širina pauze iznosi 10 ms. Nakon 5 ponavljanja ciklusa za ime, prelazimo na prezime, gde se širina impulsa povećava na 10 ms, a pauza se smanjuje na 5 ms. Ovaj novi raspored impulsa i pauza ostaje nepromenjen tokom 10 ponavljanja ciklusa za prezime. U konačnom rezultatu, "Lazar Jakovljević" generiše niz impulsa i pauza koji odražava kombinaciju suglasnika i samoglasnika, PIN oznaku, kao i promene u trajanju impulsa i pauza tokom ponavljanja ciklusa za ime i prezime.
